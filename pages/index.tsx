@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Pricing from "../components/Pricing";
+import Faq from "../components/Faq";
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <Feature />
         <About />
         <Pricing />
+        <Faq />
       </main>
       <Footer />
     </div>
