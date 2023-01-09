@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container">
         <div className="relative flex -mx-4 items-center justify-between ">
           <div className="px-4 w-60 max-w-full">
-            <a href="/" className="navbar-log w-full block py-5">
+            <Link href="/" className="navbar-log w-full block py-5">
               <Image
                 src={"logo-white.svg"}
                 alt="logo"
@@ -16,7 +16,7 @@ const Header = () => {
                 height={100}
                 className="w-full header-logo navbar-logo"
               />
-            </a>
+            </Link>
           </div>
           <div className="flex px-4 justify-between items-center w-full">
             <div>
@@ -34,119 +34,119 @@ const Header = () => {
               >
                 <ul className="block lg:flex">
                   <li className="relative group">
-                    <a
-                      href="#home"
+                    <Link
+                      href="/"
                       className="ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0"
                     >
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="relative group">
-                    <a
-                      href="#about"
+                    <Link
+                      href="/"
                       className="ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12"
                     >
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="relative group">
-                    <a
-                      href="#pricing"
+                    <Link
+                      href="/"
                       className="ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12"
                     >
                       Pricing
-                    </a>
+                    </Link>
                   </li>
                   <li className="relative group">
-                    <a
-                      href="#team"
+                    <Link
+                      href="/"
                       className="ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12"
                     >
                       Team
-                    </a>
+                    </Link>
                   </li>
                   <li className="relative group">
-                    <a
-                      href="#contact"
+                    <Link
+                      href="/"
                       className="ud-menu-scroll text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0 lg:ml-7 xl:ml-12"
                     >
                       Contact
-                    </a>
+                    </Link>
                   </li>
                   <li className="relative group">
-                    <a
+                    <Link
                       href="/"
                       className="text-base text-dark lg:text-white lg:group-hover:opacity-70 lg:group-hover:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:pl-0 lg:pr-4 flex mx-8 lg:mr-0 lg:ml-8 xl:ml-12 relative after:absolute after:w-2 after:h-2 after:border-b-2 after:border-r-2 after:border-current after:rotate-45 lg:after:right-0 after:right-1 after:top-1/2 after:-translate-y-1/2 after:mt-[-2px]"
                     >
                       Pages
-                    </a>
+                    </Link>
                     <div className="hidden relative lg:absolute w-[250px] top-full lg:top-[110%] left-0 rounded-sm lg:shadow-lg p-4 lg:block lg:opacity-0 lg:invisible group-hover:opacity-100 lg:group-hover:visible lg:group-hover:top-full bg-white transition-[top] duration-300">
-                      <a
-                        href="about.html"
+                      <Link
+                        href="/"
                         className="block text-sm text-body-color rounded hover:text-primary py-[10px] px-4"
                       >
                         About Page
-                      </a>
-                      <a
-                        href="pricing.html"
+                      </Link>
+                      <Link
+                        href="/"
                         className="block text-sm text-body-color rounded hover:text-primary py-[10px] px-4"
                       >
                         Pricing Page
-                      </a>
-                      <a
-                        href="contact.html"
+                      </Link>
+                      <Link
+                        href="/"
                         className="block text-sm text-body-color rounded hover:text-primary py-[10px] px-4"
                       >
                         Contact Page
-                      </a>
-                      <a
-                        href="blog-grids.html"
+                      </Link>
+                      <Link
+                        href="/"
                         className="block text-sm text-body-color rounded hover:text-primary py-[10px] px-4"
                       >
                         Blog Grid Page
-                      </a>
-                      <a
-                        href="blog-details.html"
+                      </Link>
+                      <Link
+                        href="/"
                         className="block text-sm text-body-color rounded hover:text-primary py-[10px] px-4"
                       >
                         Blog Details Page
-                      </a>
-                      <a
-                        href="signup.html"
+                      </Link>
+                      <Link
+                        href="/"
                         className="block text-sm text-body-color rounded hover:text-primary py-[10px] px-4"
                       >
                         Sign Up Page
-                      </a>
-                      <a
-                        href="signin.html"
+                      </Link>
+                      <Link
+                        href="/"
                         className="block text-sm text-body-color rounded hover:text-primary py-[10px] px-4"
                       >
                         Sign In Page
-                      </a>
-                      <a
-                        href="404.html"
+                      </Link>
+                      <Link
+                        href="/"
                         className="block text-sm text-body-color rounded hover:text-primary py-[10px] px-4"
                       >
                         404 Page
-                      </a>
+                      </Link>
                     </div>
                   </li>
                 </ul>
               </nav>
             </div>
             <div className="sm:flex justify-end hidden pr-16 lg:pr-0">
-              <a
-                href="signin.html"
+              <Link
+                href="/"
                 className="text-base font-medium text-white hover:opacity-70 py-3 px-7 loginBtn"
               >
                 Sign In
-              </a>
-              <a
-                href="signup.html"
+              </Link>
+              <Link
+                href="/"
                 className="text-base font-medium text-white bg-white bg-opacity-20 rounded-lg py-3 px-6 hover:bg-opacity-100 hover:text-dark signUpBtn duration-300 ease-in-out"
               >
                 Sign Up
-              </a>
+              </Link>
             </div>
           </div>
         </div>
