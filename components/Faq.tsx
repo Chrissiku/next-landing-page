@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Faq = () => {
   return (
-    <section className="bg-[#0b1120] pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] relative z-20 overflow-hidden">
+    <section className="bg-[#0b1120] pt-10 lg:pt-[80px] pb-10 lg:pb-[80px] relative z-20 overflow-hidden">
       <div className="container">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">

@@ -8,6 +8,7 @@ import Hero from "../components/Hero";
 import Pricing from "../components/Pricing";
 import Faq from "../components/Faq";
 import Testimonial from "../components/Testimonial";
+import Team from "../components/Team";
 
 const Home: NextPage = () => {
   return (
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
         <Pricing />
         <Faq />
         <Testimonial />
+        <Team />
       </main>
       <Footer />
     </div>
