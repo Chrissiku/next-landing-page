@@ -10,7 +10,7 @@ const Header = () => {
           <div className="px-4 w-60 max-w-full">
             <a href="/" className="navbar-log w-full block py-5">
               <Image
-                src={"logo.svg"}
+                src={"logo-white.svg"}
                 alt="logo"
                 width={100}
                 height={100}
