@@ -23,7 +23,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "pages/_document.tsx"
+    "pages/_document.tsx",
+    "components/Faq.jsx"
   ],
   "exclude": [
     "node_modules"
