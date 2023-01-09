@@ -2,7 +2,7 @@ import React from "react";
 
 const Feature = () => {
   return (
-    <section className="pt-20 lg:pt-[80px] pb-8 lg:pb-[70px]">
+    <section className="pt-20 lg:pt-[80px] pb-8 lg:pb-[70px] bg-[#d0d3f3]">
       <div className="container">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">
@@ -46,7 +46,7 @@ const Feature = () => {
                 Lorem Ipsum is simply dummy text of the printing and industry.
               </p>
               <a
-                href="javascript:void(0)"
+                href="/"
                 className="font-medium text-base text-body-color hover:text-primary"
               >
                 Learn More
@@ -78,7 +78,7 @@ const Feature = () => {
                 Lorem Ipsum is simply dummy text of the printing and industry.
               </p>
               <a
-                href="javascript:void(0)"
+                href="/"
                 className="font-medium text-base text-body-color hover:text-primary"
               >
                 Learn More
@@ -121,7 +121,7 @@ const Feature = () => {
                 Lorem Ipsum is simply dummy text of the printing and industry.
               </p>
               <a
-                href="javascript:void(0)"
+                href="/"
                 className="font-medium text-base text-body-color hover:text-primary"
               >
                 Learn More
@@ -152,7 +152,7 @@ const Feature = () => {
                 Lorem Ipsum is simply dummy text of the printing and industry.
               </p>
               <a
-                href="javascript:void(0)"
+                href="/"
                 className="font-medium text-base text-body-color hover:text-primary"
               >
                 Learn More
