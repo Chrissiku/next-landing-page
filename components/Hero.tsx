@@ -19,7 +19,7 @@ const Hero = () => {
               <ul className="flex flex-wrap items-center justify-center mb-10">
                 <li>
                   <a
-                    href="https://links.tailgrids.com/play-download"
+                    href="https://github.com/Chrissiku/next-landing-page"
                     className="py-4 px-6 sm:px-10 inline-flex items-center justify-center text-center text-dark text-base bg-white hover:text-primary hover:shadow-lg font-medium rounded-lg transition duration-300 ease-in-out"
                   >
                     Download Now
@@ -27,7 +27,7 @@ const Hero = () => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/tailgrids/play-tailwind"
+                    href="https://github.com/Chrissiku"
                     target="_blank"
                     className="text-base font-medium text-white py-4 px-6 sm:px-10 flex items-center hover:opacity-70 transition duration-300 ease-in-out"
                   >
